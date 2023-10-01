@@ -4,7 +4,7 @@ import './App.css'; // Import your CSS here if you have one.
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to My React App</h1>
+      <h1>Competitive Innovations</h1>
 
       {/* Embedded Presentation Component */}
       <div className="presentation-container">
@@ -16,7 +16,7 @@ function App() {
           marginwidth="0"
           marginheight="0"
           scrolling="no"
-          style={{border: '1px solid #CCC', borderWidth: '1px', marginBottom: '5px', maxWidth: '100%'}}
+          style={{border: '1px solid #CCC', borderWidth: '1px', marginBottom: '5px', maxWidth: '100%', height: '100vh'}}
           allowFullScreen // Corrected to allowFullScreen for React
         >
         </iframe>
